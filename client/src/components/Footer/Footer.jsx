@@ -1,5 +1,5 @@
-import React from 'react'
-import './Footer.scss'
+import React from "react";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           <span>Men</span>
           <span>Shoes</span>
           <span>Accessories</span>
-          <span>New arrivals</span>
+          <span>New Arrivals</span>
         </div>
         <div className="item">
           <h1>Links</h1>
@@ -24,29 +24,35 @@ const Footer = () => {
         <div className="item">
           <h1>About</h1>
           <span>
-            askldjaskldjalkcnmlkwqnmdlksanmcldkasmnlk maslkdmaslkdjmaslkdjaksljdaksldjaksl
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
+            amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt
+            ut labore etdolore.
           </span>
         </div>
         <div className="item">
           <h1>Contact</h1>
-          <span>alskdjaslkjdksaljdaslkjdasnclkasnclkasnclkasnmcklasjd</span>
+          <span>
+            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
+            amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt
+            ut labore etdolore.
+          </span>
         </div>
       </div>
       <div className="bottom">
         <div className="left">
-          <div className="logo">
-            Lamastore
-          </div>
-          <div className="copyright">
-            Copyright 2023. All rights reserved
-          </div>
+          <span className="logo">Lamastore</span>
+          <span className="copyright">
+            © Copyright 2023. All Rights Reserved
+          </span>
         </div>
         <div className="right">
-          <img src='/img/payment.png' alt='payment'/>
+          <img src="/img/payment.png" alt="" />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
